@@ -1,0 +1,139 @@
+body{
+    margin:0;
+    padding:0;
+    width: 100%;
+    height: 100vh;
+    background: rgb(111, 42, 187);
+        background: linear-gradient(175deg, rgba(111, 42, 187, 1) 0%, rgba(115, 63, 172, 1) 28%, rgba(0, 212, 255, 1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main
+{
+    width: 400px;
+    height: 550px;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         /* outline: 2px solid red; */
+         background-color: #23205a;
+         border-radius: 10px;
+       
+}
+
+
+main h2{
+    color: #fff;
+    font-family:sans-serif;
+    font-weight: 400;
+    background-color: #17153e;
+    margin-top:0;
+    border-radius:10px 10px 0 0 ;
+    padding:1.5rem 6.5rem;
+}
+
+#login
+{
+    width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: 20px;
+}
+
+#login div
+{   
+    width: 100%;
+}
+
+#login div input
+{
+    margin-top:1rem;
+    padding: .75rem 1rem;
+     width: 75%;
+     margin-left:8%;
+     border-radius: 8px;
+     outline:none;
+     border:transparent;
+
+}
+
+ div input::placeholder
+ {
+    color: rgb(174, 173, 173);
+ }
+
+#login .agree_container
+{
+    margin-top: 2rem;
+    width: 80%;
+    
+}
+
+.agree_container .agree
+{   
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+#login .agree input{
+    width: 0px;
+    margin-right: 2rem;
+}
+
+#login .agree label
+{
+    color: #d1d3d1;
+    font-family: sans-serif;
+    font-size:11px;
+}
+
+#login .agree  input[type='radio']:after {
+     width: 15px;
+     height: 15px;
+     border-radius: 15px;
+     top: -10px;
+     left: -1px;
+     position: relative;
+     background-color: #d1d3d1;
+     content: '';
+     display: inline-block;
+     visibility: visible;
+     border: 2px solid white;
+ }
+
+#login .agree  input[type='radio']:checked:after {
+     width: 15px;
+     height: 15px;
+     border-radius: 15px;
+     top: -10px;
+     left: -1px;
+     position: relative;
+     background-color: #1ebf39;
+     content: '';
+     display: inline-block;
+     visibility: visible;
+     border: 2px solid white;
+ }
+
+ #login button{
+    align-self: flex-end;
+    margin: 2rem 2.5rem 0  0;
+    color: #fff;
+    background-color:#1ebf39 ;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+ }
+
+
+
+
+ 
+ 
